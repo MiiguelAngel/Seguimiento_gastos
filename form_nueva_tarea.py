@@ -2,13 +2,29 @@ import streamlit as st
 from pages import Checklist
 from datetime import datetime
 from streamlit_option_menu import option_menu
-import locale
 
-
+# Función para obtener el mes en español
+def get_month_name(date):
+    try:
+        MONTHS = {
+        "January": "Enero",
+        "February": "Febrero",
+        "March": "Marzo",
+        "April": "Abril",
+        "May": "Mayo",
+        "June": "Junio",
+        "July": "Julio",
+        "August": "Agosto",
+        "September": "Septiembre",
+        "October": "Octubre",
+        "November": "Noviembre",
+        "December": "Diciembre"
+        }
+        return MONTHS[date]
+    except:
+        return date
 
 def mostrar():
-    # Establecer el locale en español
-    locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 
     # Seleccionar usuario
     users = ["Amoorcitaaa", "Amooorcitooo"]
@@ -63,7 +79,10 @@ def mostrar():
         
         # Actualizar el archivo JSON con la nueva tarea
             tasks_data = Checklist.load_tasks(selected)  # Ajusta esto según la lógica de usuario
-            mes = datetime.strptime(st.session_state.new_task_data['fecha'], '%Y-%m-%d').strftime('%B %Y').capitalize()
+            año = datetime.strptime(st.session_state.new_task_data['fecha'], '%Y-%m-%d').strftime('%Y')
+            month = datetime.strptime(st.session_state.new_task_data['fecha'], '%Y-%m-%d').strftime('%B').capitalize()
+            month_without_Y = get_month_name(month)
+            mes = f"{month_without_Y} {año}"
             if mes in tasks_data:
                 tasks_data[mes].append(st.session_state.new_task_data)
             else:

@@ -4,11 +4,9 @@ import streamlit as st
 import json
 import pandas as pd
 from streamlit_option_menu import option_menu
-import locale
 
 
-# Establecer el locale en español
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+
 
 st.markdown("""
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -44,6 +42,8 @@ def initialize_session_state():
         st.session_state.update = False
     if 'new_task' not in st.session_state:
         st.session_state.new_task = False
+
+from datetime import datetime
 
 
 
