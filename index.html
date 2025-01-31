@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Expandible</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 60px;
+            background-color: #343a40;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: width 0.3s;
+        }
+        .icon {
+            color: white;
+            font-size: 24px;
+            margin: 20px 0;
+            position: relative;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .icon:hover {
+            background-color: #495057;
+        }
+        .icon::after {
+            content: attr(data-label);
+            position: absolute;
+            left: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #444;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            opacity: 0;
+            white-space: nowrap;
+            transition: opacity 0.3s, left 0.3s;
+        }
+        .sidebar:hover {
+            width: 200px;
+        }
+        .sidebar:hover .icon::after {
+            opacity: 1;
+            left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="icon" data-label="Opción 1">🏠</div>
+        <div class="icon" data-label="Opción 2">🔍</div>
+        <div class="icon" data-label="Opción 3">📁</div>
+        <div class="icon" data-label="Opción 4">⚙️</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelectorAll('.icon').forEach(icon => {
+            icon.addEventListener('mouseenter', () => {
+                icon.parentNode.classList.add('expanded');
+            });
+            icon.addEventListener('mouseleave', () => {
+                icon.parentNode.classList.remove('expanded');
+            });
+        });
+    </script>
+</body>
+</html>
