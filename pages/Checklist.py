@@ -142,8 +142,27 @@ def mostrar():
         # Mostrar las tareas con el diseño modificado
         for i, task in enumerate(tasks):
             desc_class = "completed" if task["completado"] else ""
+
+            col1, col2, col3, col4, col5, col6 = st.columns([1, 3, 2, 2,1,1])
+            with col1:
+                st.write(f"Check")
             
-            col1, col2, col3, col4, col5 = st.columns([1, 3, 2, 2,1])
+            with col2:
+                st.write(F"Descripción")
+            
+            with col3:
+                st.write(f"Monto")
+            
+            with col4:
+                st.write(f"Fecha")
+            
+            with col5:
+                st.write(f"Edit")
+            
+            with col6:
+                st.write(f"Delete")
+            
+            col1, col2, col3, col4, col5, col6 = st.columns([1, 3, 2, 2,1,1])
             with col1:
                 checkbox_value = st.toggle(f' ', key=f'check_{selected}_{selected_month}_{i}', value=task["completado"])
                 if checkbox_value != task["completado"]:
@@ -163,6 +182,20 @@ def mostrar():
                 st.markdown(f"<p class='task-desc {desc_class}'>{task['fecha']}</p>", unsafe_allow_html=True)
             
             with col5:
+                if st.button('✏️', key=f'edit_{selected}_{selected_month}_{i}', help="Editar tarea"):
+                    st.session_state.page = "form_nueva_tarea"
+                    st.session_state.wait_new_tarea = "Awaiting new task data"
+                    print("Current page:", st.session_state.page)  # Imprimir el cambio de página
+                    
+                    st.session_state.edit_task = {
+                        "index": i,
+                        "selected": selected,
+                        "selected_month": selected_month,
+                        "task": task
+                    }
+                    st.rerun()
+
+            with col6:
                 if st.button('❌', key=f'delete_{selected}_{selected_month}_{i}', help="Eliminar tarea"):
                     del tasks[i]
                     save_tasks(tasks_data, selected)

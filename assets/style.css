@@ -48,7 +48,7 @@ body {
 
 
 .task-container {
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px solid darkslateblue;
     background-color: white;
     margin: 0px 0;
 }
@@ -98,9 +98,9 @@ body {
     background-color: #EC576B;
 }
 
-[data-baseweb="checkbox"] [data-testid="stWidgetLabel"] p {
-    /* Styles for the label text for checkbox and toggle */
-    font-size: 10rem;
-    width: 400px;
-    margin-top: 1rem;
+.st.key-es_recurrente Checkbox p {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  cursive;
 }

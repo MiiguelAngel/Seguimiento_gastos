@@ -80,8 +80,13 @@ if 'wait_new_tarea' not in st.session_state:
     st.session_state.wait_new_tarea = "Home"
     print_page_state()  # Imprimir el estado inicial
 
+#Control de cambios para el checklist
+if 'edit_task' not in st.session_state:
+    st.session_state.edit_task = None
+
 if selected == "Home":
     st.session_state.page = "Home"
+    st.session_state.wait_new_tarea = "Home"
     print_page_state()
     st.title("Bienvenido a la aplicación")
     st.write("Aquí puedes llevar el seguimiento de tus gastos.")
@@ -90,14 +95,17 @@ elif st.session_state.page == "form_nueva_tarea":
     form_nueva_tarea.mostrar()
 elif selected == "Checklist" and st.session_state.wait_new_tarea == "Home":
     st.session_state.page = "Checklist"
+    st.session_state.wait_new_tarea = "Home"
     print_page_state()
     if authenticate():
         Checklist.mostrar()
 elif selected == "Dashboard":
+    st.session_state.wait_new_tarea = "Home"
     st.session_state.page = "Dashboard"
     print_page_state()
     Dashboard.mostrar()
 elif selected == "Formulario":
+    st.session_state.wait_new_tarea = "Home"
     st.session_state.page = "Formulario"
     print_page_state()
     Formulario.mostrar()

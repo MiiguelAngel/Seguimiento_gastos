@@ -51,7 +51,7 @@
     ],
     "Enero 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
+            "descripcion": "Arriendo de apartamento ",
             "monto": 600000,
             "fecha": "2025-01-05",
             "completado": false
@@ -96,6 +96,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-01-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-01-15",
             "completado": false
         }
     ],
@@ -147,6 +153,12 @@
             "monto": 50000,
             "fecha": "2025-02-05",
             "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-02-14",
+            "completado": false
         }
     ],
     "Marzo 2025": [
@@ -196,6 +208,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-03-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-03-16",
             "completado": false
         }
     ],
@@ -297,6 +315,12 @@
             "monto": 50000,
             "fecha": "2025-05-05",
             "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-05-15",
+            "completado": false
         }
     ],
     "Junio 2025": [
@@ -346,6 +370,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-06-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-06-14",
             "completado": false
         }
     ],
@@ -397,6 +427,12 @@
             "monto": 50000,
             "fecha": "2025-07-05",
             "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-14",
+            "completado": false
         }
     ],
     "Agosto 2025": [
@@ -446,6 +482,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-08-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-08-13",
             "completado": false
         }
     ],
@@ -497,6 +539,12 @@
             "monto": 50000,
             "fecha": "2025-09-05",
             "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-09-12",
+            "completado": false
         }
     ],
     "Octubre 2025": [
@@ -546,6 +594,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-10-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-10-12",
             "completado": false
         }
     ],
@@ -597,6 +651,12 @@
             "monto": 50000,
             "fecha": "2025-11-05",
             "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-11-11",
+            "completado": false
         }
     ],
     "Diciembre 2025": [
@@ -646,6 +706,12 @@
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-12-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-12-11",
             "completado": false
         }
     ],
