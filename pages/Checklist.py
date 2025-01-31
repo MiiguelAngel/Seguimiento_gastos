@@ -49,7 +49,7 @@ from datetime import datetime
 
 def mostrar():
 
-    load_css('assets\style.css')
+    load_css('assets/style.css')
 
     initialize_session_state()
 
