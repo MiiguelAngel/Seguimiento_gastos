@@ -4,7 +4,7 @@ import streamlit as st
 import json
 import pandas as pd
 from streamlit_option_menu import option_menu
-
+from datetime import datetime
 
 
 
@@ -43,7 +43,28 @@ def initialize_session_state():
     if 'new_task' not in st.session_state:
         st.session_state.new_task = False
 
-from datetime import datetime
+# Función para obtener el mes en español
+def get_month_name(date):
+    try:
+        MONTHS = {
+        "January": "Enero",
+        "February": "Febrero",
+        "March": "Marzo",
+        "April": "Abril",
+        "May": "Mayo",
+        "June": "Junio",
+        "July": "Julio",
+        "August": "Agosto",
+        "September": "Septiembre",
+        "October": "Octubre",
+        "November": "Noviembre",
+        "December": "Diciembre"
+        }
+        return MONTHS[date]
+    except:
+        return date
+
+
 
 
 
@@ -89,16 +110,32 @@ def mostrar():
     # Cargar las tareas para el usuario seleccionado
     tasks_data = load_tasks(selected)
 
-    # Seleccionar el mes
+
+    # Botón estilizado "Añadir nueva tarea"
+    if st.button('Añadir nueva tarea', key='add_task', help='Añadir una nueva tarea'):
+        st.session_state.page = "form_nueva_tarea"
+        print("Current page:", st.session_state.page)  # Imprimir el cambio de página
+        st.rerun()
+
+    # Obtener el mes actual
+    current_date = get_month_name(datetime.now())
+    eng_month = current_date.strftime("%B")
+    eng_year = current_date.strftime("%Y")
+    current_month = get_month_name(eng_month) + " " + eng_year
+
+    # Seleccionar el mes, por defecto el mes actual si está en los datos
     meses = list(tasks_data.keys())
-    selected_month = st.selectbox('Selecciona un mes', meses)
+    if current_month in meses:
+        
+        selected_month = st.selectbox('Selecciona un mes', meses, index=meses.index(current_month))
+    else:
+        selected_month = st.selectbox('Selecciona un mes', meses)
 
     # Mostrar las tareas del mes seleccionado con un diseño amigable
     tasks = tasks_data[selected_month]
 
     
     
-
     # Contenedor para el checklist
     with st.container(border=True, key='checklist_container'):
 
@@ -131,10 +168,3 @@ def mostrar():
                     save_tasks(tasks_data, selected)
             st.markdown('<div class="task-container">', unsafe_allow_html=True)
             st.markdown('</div>', unsafe_allow_html=True)
-            
-        
-        # Botón estilizado "Añadir nueva tarea"
-        if st.button('Añadir nueva tarea', key='add_task', help='Añadir una nueva tarea'):
-            st.session_state.page = "form_nueva_tarea"
-            print("Current page:", st.session_state.page)  # Imprimir el cambio de página
-            st.rerun()
