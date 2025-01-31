@@ -17,6 +17,23 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Función para autenticar al usuario
+def authenticate():
+    if 'authenticated' not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.subheader("Introduce la contraseña")
+        password = st.text_input("Contraseña", type="password")
+        if st.button("Acceder"):
+            if password == st.secrets["password"]:
+                st.session_state.authenticated = True
+                st.experimental_rerun()
+            else:
+                st.error("Contraseña incorrecta")
+        return False
+    return True
+
 # Menú de opciones horizontal
 selected = option_menu(
     menu_title=None,
@@ -74,7 +91,8 @@ elif st.session_state.page == "form_nueva_tarea":
 elif selected == "Checklist" and st.session_state.wait_new_tarea == "Home":
     st.session_state.page = "Checklist"
     print_page_state()
-    Checklist.mostrar()
+    if authenticate():
+        Checklist.mostrar()
 elif selected == "Dashboard":
     st.session_state.page = "Dashboard"
     print_page_state()
