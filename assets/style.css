@@ -1,0 +1,106 @@
+:root {
+    --background-color: #f7f7f7;
+    --primary-color: #4a6fa5;
+    --secondary-color: #dcdcdc;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.task-desc, .task-amount, .task-fecha {
+    font-family: 'Lato', sans-serif;
+}
+
+.task-desc {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.task-amount {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace; /* Fuente dedicada para los montos */
+}
+
+.task-desc.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.task-monto,
+.task-fecha {
+    margin-right: 20px;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.task-container {
+    border-bottom: 1px solid var(--secondary-color);
+    background-color: white;
+    margin: 0px 0;
+}
+
+.task-container:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.st-key-add_task button:hover {
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.st-key-add_task p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  cursive;
+}
+
+.st-key-add_task {
+    display: inline-block;
+    background-color: teal; /* Color moderno y elegante */
+    color: black;
+    width: 260px; /* Ancho fijo */
+    padding: 12px 24px; /* Espaciado mayor para un aspecto más elegante */
+    margin-left: 28%; /* Margen a la izquierda para separar del botón anterior */
+    border: none;
+    border-radius: 25px; /* Borde redondeado */
+    cursor: pointer;
+    font-size: 18px; /* Fuente un poco más grande */
+    font-weight: bold; /* Fuente en negrita */
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el color de fondo y transformación */
+}
+
+.st.key-nueva_tarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 50%;
+    background-color: #EC576B;
+}
+
+[data-baseweb="checkbox"] [data-testid="stWidgetLabel"] p {
+    /* Styles for the label text for checkbox and toggle */
+    font-size: 10rem;
+    width: 400px;
+    margin-top: 1rem;
+}

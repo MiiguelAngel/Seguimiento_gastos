@@ -1,0 +1,208 @@
+{
+    "Diciembre 2024": [
+        {
+            "descripcion": "Comprar regalos",
+            "monto": 150,
+            "fecha": "2024-12-15",
+            "completado": false
+        },
+        {
+            "descripcion": "Planificar fiesta de A\u00c3\u00b1o Nuevo",
+            "monto": 200,
+            "fecha": "2024-12-20",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor ",
+            "monto": 10000000,
+            "fecha": "2025-01-31",
+            "completado": false
+        }
+    ],
+    "Enero 2025": [
+        {
+            "descripcion": "Pagar alquiler",
+            "monto": 500,
+            "fecha": "2025-01-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Gimnasio mensual",
+            "monto": 50,
+            "fecha": "2025-01-05",
+            "completado": false
+        },
+        {
+            "descripcion": "ser la mejor en enero",
+            "monto": 1231231,
+            "fecha": "2025-01-31",
+            "completado": false
+        },
+        {
+            "descripcion": "probando",
+            "monto": 123123,
+            "fecha": "2025-01-31",
+            "completado": false
+        },
+        {
+            "descripcion": "Creo que lo logre",
+            "monto": 500000,
+            "fecha": "2025-01-31",
+            "completado": false
+        }
+    ],
+    "Febrero 2025": [
+        {
+            "descripcion": "Compra de supermercado",
+            "monto": 300,
+            "fecha": "2025-02-10",
+            "completado": false
+        },
+        {
+            "descripcion": "Regalo de San Valent\u00c3\u00adn",
+            "monto": 100,
+            "fecha": "2025-02-14",
+            "completado": false
+        }
+    ],
+    "Marzo 2025": [
+        {
+            "descripcion": "Mantenimiento del coche",
+            "monto": 200,
+            "fecha": "2025-03-10",
+            "completado": false
+        },
+        {
+            "descripcion": "Factura de servicios",
+            "monto": 100,
+            "fecha": "2025-03-15",
+            "completado": false
+        }
+    ],
+    "Abril 2025": [
+        {
+            "descripcion": "Compra de ropa",
+            "monto": 150,
+            "fecha": "2025-04-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Excursi\u00c3\u00b3n de primavera",
+            "monto": 250,
+            "fecha": "2025-04-20",
+            "completado": false
+        }
+    ],
+    "Mayo 2025": [
+        {
+            "descripcion": "Mantenimiento del jard\u00c3\u00adn",
+            "monto": 100,
+            "fecha": "2025-05-10",
+            "completado": false
+        },
+        {
+            "descripcion": "Compra de plantas",
+            "monto": 50,
+            "fecha": "2025-05-15",
+            "completado": false
+        }
+    ],
+    "Junio 2025": [
+        {
+            "descripcion": "Vacaciones de verano",
+            "monto": 800,
+            "fecha": "2025-06-20",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago de impuestos",
+            "monto": 300,
+            "fecha": "2025-06-30",
+            "completado": false
+        }
+    ],
+    "Julio 2025": [
+        {
+            "descripcion": "Renovaci\u00c3\u00b3n del seguro",
+            "monto": 500,
+            "fecha": "2025-07-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Cine con amigos",
+            "monto": 30,
+            "fecha": "2025-07-10",
+            "completado": false
+        }
+    ],
+    "Agosto 2025": [
+        {
+            "descripcion": "Compra de \u00c3\u00batiles escolares",
+            "monto": 200,
+            "fecha": "2025-08-15",
+            "completado": false
+        },
+        {
+            "descripcion": "Salida a la playa",
+            "monto": 100,
+            "fecha": "2025-08-20",
+            "completado": false
+        }
+    ],
+    "Septiembre 2025": [
+        {
+            "descripcion": "Inicio de clases",
+            "monto": 300,
+            "fecha": "2025-09-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago de matr\u00c3\u00adcula",
+            "monto": 500,
+            "fecha": "2025-09-10",
+            "completado": false
+        }
+    ],
+    "Octubre 2025": [
+        {
+            "descripcion": "Fiesta de Halloween",
+            "monto": 100,
+            "fecha": "2025-10-31",
+            "completado": false
+        },
+        {
+            "descripcion": "Decoraciones de oto\u00c3\u00b1o",
+            "monto": 50,
+            "fecha": "2025-10-15",
+            "completado": false
+        }
+    ],
+    "Noviembre 2025": [
+        {
+            "descripcion": "Cena de Acci\u00c3\u00b3n de Gracias",
+            "monto": 200,
+            "fecha": "2025-11-25",
+            "completado": false
+        },
+        {
+            "descripcion": "Viaje a casa de los abuelos",
+            "monto": 150,
+            "fecha": "2025-11-10",
+            "completado": false
+        }
+    ],
+    "Diciembre 2025": [
+        {
+            "descripcion": "Compra de regalos",
+            "monto": 250,
+            "fecha": "2025-12-15",
+            "completado": false
+        },
+        {
+            "descripcion": "Celebraci\u00c3\u00b3n de A\u00c3\u00b1o Nuevo",
+            "monto": 300,
+            "fecha": "2025-12-31",
+            "completado": false
+        }
+    ]
+}
