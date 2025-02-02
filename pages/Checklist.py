@@ -13,6 +13,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
+
 def load_css(file_path):
     with open(file_path) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -21,7 +22,13 @@ def load_css(file_path):
 def load_tasks(usuario):
     filename = f'tasks_{usuario.lower()}.json'
     with open(filename, 'r') as f:
-        return json.load(f)
+        tasks_data = json.load(f)
+    
+    # Ordenar las tareas
+    for month, tasks in tasks_data.items():
+        tasks_data[month] = sorted(tasks, key=lambda x: (x['completado'], x['monto']))
+    
+    return tasks_data
 
 # Función para guardar las tareas en un archivo JSON
 def save_tasks(tasks, usuario):
@@ -69,6 +76,8 @@ def get_month_name(date):
 
 
 def mostrar():
+
+    
 
     load_css('assets/style.css')
 
@@ -137,67 +146,151 @@ def mostrar():
     
     
     # Contenedor para el checklist
-    with st.container(border=True, key='checklist_container'):
+    # with st.container(border=True, key='checklist_container'):
 
-        # Mostrar las tareas con el diseño modificado
-        for i, task in enumerate(tasks):
-            desc_class = "completed" if task["completado"] else ""
+    # Título del checklist
+    #-------------------------------------------------------------------------
+    # CSS para forzar que los elementos estén en una sola fila
+    st.markdown(
+        """
+        <style>
+            .table-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                white-space: nowrap;
+                overflow-x: auto;
+                border-bottom: 2px solid #ddd;
+                padding-bottom: 5px;
+            }
+            .table-header div {
+                flex: 1;
+                text-align: center;
+                min-width: 80px; /* Ajusta según sea necesario */
+                font-size: 15x;
+                font-weight: bold;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
-            col1, col2, col3, col4, col5, col6 = st.columns([1, 3, 2, 2,1,1])
-            with col1:
-                st.write(f"Check")
-            
-            with col2:
-                st.write(F"Descripción")
-            
-            with col3:
-                st.write(f"Monto")
-            
-            with col4:
-                st.write(f"Fecha")
-            
-            with col5:
-                st.write(f"Edit")
-            
-            with col6:
-                st.write(f"Delete")
-            
-            col1, col2, col3, col4, col5, col6 = st.columns([1, 3, 2, 2,1,1])
-            with col1:
-                checkbox_value = st.toggle(f' ', key=f'check_{selected}_{selected_month}_{i}', value=task["completado"])
-                if checkbox_value != task["completado"]:
-                    task["completado"] = checkbox_value
-                    save_task_update(tasks_data, selected_month, i, task, selected)  # Guardar cambios inmediatos solo para la tarea específica
+    # Estructura de la cabecera de la tabla
+    st.markdown(
+        """
+        <div class="table-header">
+            <div>Check</div>
+            <div>Descripción</div>
+            <div>Monto</div>
+            <div>Fecha</div>
+            <div>Edit</div>
+            <div>Delete</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    #-------------------------------------------------------------------------
 
-            with col2:
-                desc_class = "completed" if task["completado"] else ""
-                st.markdown(f"<p class='task-desc {desc_class}'>{task['descripcion']}</p>", unsafe_allow_html=True)
-            
-            with col3:
-                desc_class = "completed" if task["completado"] else ""
-                st.markdown(f"<p class='task-amount {desc_class}'>${task['monto']}</p>", unsafe_allow_html=True)
-            
-            with col4:
-                desc_class = "completed" if task["completado"] else ""
-                st.markdown(f"<p class='task-desc {desc_class}'>{task['fecha']}</p>", unsafe_allow_html=True)
-            
-            with col5:
-                if st.button('✏️', key=f'edit_{selected}_{selected_month}_{i}', help="Editar tarea"):
-                    st.session_state.page = "form_nueva_tarea"
-                    st.session_state.wait_new_tarea = "Awaiting new task data"
-                    print("Current page:", st.session_state.page)  # Imprimir el cambio de página
-                    
-                    st.session_state.edit_task = {
-                        "index": i,
-                        "selected": selected,
-                        "selected_month": selected_month,
-                        "task": task
+    # Mostrar las tareas con el diseño modificado
+    for i, task in enumerate(tasks):
+        desc_class = "completed" if task["completado"] else ""
+        # CSS para asegurar que cada fila de tareas se manteng en una sola línea
+
+        st.markdown(
+            """
+            <style>
+                .task-container-new {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    padding: 5px 0;
+                }
+                .task-container-new div {
+                    flex: 1;
+                    text-align: center;
+                    min-width: 80px;
+                    word-wrap: break-word;
+                    white-space: normal;
+                    font-size: 16px; /* Tamaño base de la fuente */
+                }
+                .task-desc {
+                    max-width: 200px; /* Ajusta el ancho máximo de la descripción */
+                }
+
+                /* Media Queries para tamaños de fuente responsivos */
+                @media (max-width: 1024px) {
+                    .task-container-new div {
+                        font-size: 15px;
                     }
-                    st.rerun()
+                }
+                @media (max-width: 768px) {
+                    .task-container-new div {
+                        font-size: 15px;
+                    }
+                }
+                @media (max-width: 480px) {
+                    .task-container-new div {
+                        font-size: 15px;
+                    }
+                }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+        
+        
+        col1, col2, col3, col4 = st.columns([0.5, 3, 0.5, 0.5])
+        with col1:
+            checkbox_value = st.toggle(f' ', key=f'check_{selected}_{selected_month}_{i}', value=task["completado"])
+            if checkbox_value != task["completado"]:
+                task["completado"] = checkbox_value
+                save_task_update(tasks_data, selected_month, i, task, selected)  # Guardar cambios inmediatos solo para la tarea específica
 
-            with col6:
-                if st.button('❌', key=f'delete_{selected}_{selected_month}_{i}', help="Eliminar tarea"):
-                    del tasks[i]
-                    save_tasks(tasks_data, selected)
-            st.markdown('<div class="task-container">', unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
+        
+        with col2:
+            desc_class = "completed" if task["completado"] else ""
+        
+        # st.markdown(f"<p class='task-desc {desc_class}'>{task['descripcion']}</p>", unsafe_allow_html=True)
+        
+            st.markdown(
+                f"""
+                <div class="task-container-new">
+                    <div class="task-desc {desc_class}">{task["descripcion"]}</div>
+                    <div class="task-desc {desc_class}">${task["monto"]}</div>
+                    <div class="task-desc {desc_class}">{task["fecha"]}</div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        
+        
+        # with col3:
+        #     desc_class = "completed" if task["completado"] else ""
+        #     st.markdown(f"<p class='task-amount {desc_class}'>${task['monto']}</p>", unsafe_allow_html=True)
+        
+        # with col4:
+        #     desc_class = "completed" if task["completado"] else ""
+        #     st.markdown(f"<p class='task-desc {desc_class}'>{task['fecha']}</p>", unsafe_allow_html=True)
+        
+        with col3:
+            if st.button('✏️', key=f'edit_{selected}_{selected_month}_{i}', help="Editar tarea"):
+                st.session_state.page = "form_nueva_tarea"
+                st.session_state.wait_new_tarea = "Awaiting new task data"
+                print("Current page:", st.session_state.page)  # Imprimir el cambio de página
+                
+                st.session_state.edit_task = {
+                    "index": i,
+                    "selected": selected,
+                    "selected_month": selected_month,
+                    "task": task
+                }
+                st.rerun()
+
+        with col4:
+            if st.button('❌', key=f'delete_{selected}_{selected_month}_{i}', help="Eliminar tarea"):
+                del tasks[i]
+                save_tasks(tasks_data, selected)
+        st.markdown('<div class="task-container">', unsafe_allow_html=True)

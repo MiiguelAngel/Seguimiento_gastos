@@ -65,7 +65,7 @@
             "monto": 50000,
             "fecha": "2024-12-14",
             "completado": false
-        }         
+        }
     ],
     "Enero 2025": [
         {
@@ -133,7 +133,7 @@
             "monto": 50000,
             "fecha": "2025-01-14",
             "completado": false
-        } 
+        }
     ],
     "Febrero 2025": [
         {
@@ -195,13 +195,7 @@
             "monto": 50000,
             "fecha": "2025-02-14",
             "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-02-14",
-            "completado": false
-        } 
+        }
     ],
     "Marzo 2025": [
         {
@@ -269,7 +263,13 @@
             "monto": 50000,
             "fecha": "2025-03-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-03-03",
+            "completado": false
+        }
     ],
     "Abril 2025": [
         {
@@ -337,7 +337,13 @@
             "monto": 50000,
             "fecha": "2025-04-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-04-02",
+            "completado": false
+        }
     ],
     "Mayo 2025": [
         {
@@ -405,7 +411,13 @@
             "monto": 50000,
             "fecha": "2025-05-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-05-02",
+            "completado": false
+        }
     ],
     "Junio 2025": [
         {
@@ -473,7 +485,13 @@
             "monto": 50000,
             "fecha": "2025-06-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-06-01",
+            "completado": false
+        }
     ],
     "Julio 2025": [
         {
@@ -541,7 +559,19 @@
             "monto": 50000,
             "fecha": "2025-07-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-31",
+            "completado": false
+        }
     ],
     "Agosto 2025": [
         {
@@ -609,7 +639,13 @@
             "monto": 50000,
             "fecha": "2025-08-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-08-30",
+            "completado": false
+        }
     ],
     "Septiembre 2025": [
         {
@@ -677,7 +713,13 @@
             "monto": 50000,
             "fecha": "2025-09-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-09-29",
+            "completado": false
+        }
     ],
     "Octubre 2025": [
         {
@@ -745,7 +787,13 @@
             "monto": 50000,
             "fecha": "2025-10-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-10-29",
+            "completado": false
+        }
     ],
     "Noviembre 2025": [
         {
@@ -813,7 +861,13 @@
             "monto": 50000,
             "fecha": "2025-11-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-11-28",
+            "completado": false
+        }
     ],
     "Diciembre 2025": [
         {
@@ -881,6 +935,12 @@
             "monto": 50000,
             "fecha": "2025-12-14",
             "completado": false
-        } 
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-12-28",
+            "completado": false
+        }
     ]
 }

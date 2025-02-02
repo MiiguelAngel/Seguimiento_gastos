@@ -1,12 +1,57 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from pages import Checklist, Dashboard, Formulario
+from pages import Checklist, Dashboard, Tabla_de_trx
 import form_nueva_tarea
 from datetime import datetime
 
 
 # Configuración de la página
 # st.set_page_config(page_title="Seguimiento gastos", page_icon=':money_with_wings:', layout='wide')
+
+
+
+# Insertar JavaScript para obtener las dimensiones de la ventana
+st.markdown("""
+    <script>
+    (function() {
+        function sendWindowSize() {
+            const size = {
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+            window.parent.postMessage(size, "*");
+        }
+        window.onresize = sendWindowSize;
+        sendWindowSize();
+    })();
+    </script>
+    """, unsafe_allow_html=True)
+
+# Función para manejar mensajes de ventana
+def handle_window_size():
+    if "width" in st.session_state and "height" in st.session_state:
+        st.write(f"Window width: {st.session_state.width}px")
+        st.write(f"Window height: {st.session_state.height}px")
+
+# Función JavaScript para manejar mensajes
+st.markdown("""
+    <script>
+    window.addEventListener("message", (event) => {
+        const size = event.data;
+        window.parent.postMessage(size, "*");
+        if (size.width && size.height) {
+            window.streamlitWebSocket.send(JSON.stringify({
+                "width": size.width,
+                "height": size.height,
+            }));
+        }
+    });
+    </script>
+    """, unsafe_allow_html=True)
+
+
+
+
 
 # CSS personalizado para ocultar el sidebar
 st.markdown("""
@@ -37,7 +82,7 @@ def authenticate():
 # Menú de opciones horizontal
 selected = option_menu(
     menu_title=None,
-    options=["Home", "Checklist", "Dashboard", "Formulario"],
+    options=["Home", "Checklist", "Dashboard", "Tabla de transacciones"],
     icons=["house", "check2-square", "bar-chart-line", "file-earmark-text"],
     menu_icon="cast",
     default_index=0,
@@ -85,6 +130,7 @@ if 'edit_task' not in st.session_state:
     st.session_state.edit_task = None
 
 if selected == "Home":
+    handle_window_size()
     st.session_state.page = "Home"
     st.session_state.wait_new_tarea = "Home"
     print_page_state()
@@ -104,8 +150,8 @@ elif selected == "Dashboard":
     st.session_state.page = "Dashboard"
     print_page_state()
     Dashboard.mostrar()
-elif selected == "Formulario":
+elif selected == "Tabla de transacciones":
     st.session_state.wait_new_tarea = "Home"
-    st.session_state.page = "Formulario"
+    st.session_state.page = "Tabla_de_trx"
     print_page_state()
-    Formulario.mostrar()
+    Tabla_de_trx.mostrar()

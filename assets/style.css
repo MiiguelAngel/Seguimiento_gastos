@@ -89,6 +89,15 @@ body {
     transition: background-color 0.3s, transform 0.3s; /* Transición suave para el color de fondo y transformación */
 }
 
+/* Ajustar el margen izquierdo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .st-key-add_task {
+        margin-left: 10%;
+        align-items: left;
+        text-align: left;
+    }
+}
+
 .st.key-nueva_tarea {
     display: flex;
     flex-direction: column;

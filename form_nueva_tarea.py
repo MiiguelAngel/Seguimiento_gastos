@@ -16,6 +16,12 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
+# Función para reiniciar los campos del formulario
+def reiniciar_formulario():
+    st.session_state.descripcion = ''
+    st.session_state.monto = 0
+    st.session_state.fecha = datetime.today()
+
 # Función para obtener el mes en español
 def get_month_name(date):
     try:
@@ -107,8 +113,10 @@ def mostrar():
                     # Si la tarea no es recurrente, modificar solo la tarea actual
                     tasks_data = Checklist.load_tasks(task_to_edit["selected"])
                     tasks_data[task_to_edit["selected_month"]][task_to_edit["index"]] = nueva_tarea
+                    reiniciar_formulario()
                     Checklist.save_tasks(tasks_data, task_to_edit["selected"])
                     st.success('Tarea editada con éxito')
+                    # Restablecer los valores del formulario
                     st.session_state.edit_task = None
 
             #--------------------------Para añadir un registro nuevo
@@ -145,13 +153,17 @@ def mostrar():
                     else:
                         tasks_data[mes] = [tarea]
                 Checklist.save_tasks(tasks_data, selected)
+                reiniciar_formulario()
                 st.success('Tarea añadida con éxito')
+                
 
             st.session_state.new_task_data = None
             st.session_state.wait_new_tarea = "Home"
+            reiniciar_formulario()
 
     # Botón para volver al checklist
     if st.button('Volver al Checklist'):
+        reiniciar_formulario()
         st.session_state.new_task_data = None
         st.session_state.wait_new_tarea = "Home"
         st.session_state.page = "Checklist"

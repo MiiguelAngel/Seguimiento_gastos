@@ -1,14 +1,20 @@
 {
     "Diciembre 2024": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2024-12-05",
             "completado": true
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
+            "fecha": "2024-12-05",
+            "completado": true
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
             "fecha": "2024-12-05",
             "completado": true
         },
@@ -25,40 +31,40 @@
             "completado": true
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2024-12-05",
             "completado": true
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2024-12-05",
+            "completado": true
+        },
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
             "fecha": "2024-12-05",
             "completado": true
         }
     ],
     "Enero 2025": [
         {
-            "descripcion": "Arriendo de apartamento ",
-            "monto": 600000,
+            "descripcion": "Pago Luz",
+            "monto": 45000,
             "fecha": "2025-01-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
+            "fecha": "2025-01-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
             "fecha": "2025-01-05",
             "completado": false
         },
@@ -75,37 +81,73 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-01-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-01-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-01-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-01-05",
-            "completado": false
+            "completado": true
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-01-15",
-            "completado": false
+            "descripcion": "Arriendo de apartamento ",
+            "monto": 650000,
+            "fecha": "2025-01-01",
+            "completado": true
         }
     ],
     "Febrero 2025": [
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-02-04",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-02-05",
+            "completado": false
+        },
         {
             "descripcion": "Arriendo de apartamento",
             "monto": 600000,
@@ -113,45 +155,9 @@
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
-            "fecha": "2025-02-05",
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-02-01",
             "completado": false
         },
         {
@@ -163,15 +169,39 @@
     ],
     "Marzo 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-03-16",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-03-03",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-03-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-03-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-03-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-03-06",
             "completado": false
         },
         {
@@ -187,46 +217,52 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-03-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-03-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-03-16",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-03-05",
             "completado": false
         }
     ],
     "Abril 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-04-02",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-04-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
+            "fecha": "2025-04-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-04-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
             "fecha": "2025-04-05",
             "completado": false
         },
@@ -243,40 +279,58 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-04-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-04-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-04-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-04-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
             "fecha": "2025-04-05",
             "completado": false
         }
     ],
     "Mayo 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-05-15",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-05-02",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-05-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
+            "fecha": "2025-05-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-05-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
             "fecha": "2025-05-05",
             "completado": false
         },
@@ -293,47 +347,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-05-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-05-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-05-15",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-05-05",
             "completado": false
         }
     ],
     "Junio 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-06-14",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-06-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-06-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-06-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-06-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-06-04",
             "completado": false
         },
         {
@@ -349,47 +415,65 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-06-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-06-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-06-14",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-06-05",
             "completado": false
         }
     ],
     "Julio 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-14",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-07-01",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-07-31",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-07-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-07-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-07-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-07-04",
             "completado": false
         },
         {
@@ -405,47 +489,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-07-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-07-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-07-14",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-07-05",
             "completado": false
         }
     ],
     "Agosto 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-08-13",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-08-30",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-08-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-08-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-08-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-08-03",
             "completado": false
         },
         {
@@ -461,47 +557,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-08-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-08-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-08-13",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-08-05",
             "completado": false
         }
     ],
     "Septiembre 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-09-12",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-09-29",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-09-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-09-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-09-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-09-02",
             "completado": false
         },
         {
@@ -517,47 +625,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-09-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-09-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-09-12",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-09-05",
             "completado": false
         }
     ],
     "Octubre 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-10-12",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-10-29",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-10-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-10-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-10-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-10-02",
             "completado": false
         },
         {
@@ -573,47 +693,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-10-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-10-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-10-12",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-10-05",
             "completado": false
         }
     ],
     "Noviembre 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-11-11",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-11-28",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-11-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-11-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-11-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-11-01",
             "completado": false
         },
         {
@@ -629,47 +761,59 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-11-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-11-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-11-11",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-11-05",
             "completado": false
         }
     ],
     "Diciembre 2025": [
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-12-11",
+            "completado": false
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-12-28",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
             "fecha": "2025-12-05",
             "completado": false
         },
         {
-            "descripcion": "Cadena",
-            "monto": 250000,
+            "descripcion": "Pago plan celular",
+            "monto": 50000,
             "fecha": "2025-12-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-12-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-12-01",
             "completado": false
         },
         {
@@ -685,33 +829,21 @@
             "completado": false
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 50000,
-            "fecha": "2025-12-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-12-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-12-05",
             "completado": false
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-12-05",
             "completado": false
         },
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-12-11",
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-12-05",
             "completado": false
         }
     ],
