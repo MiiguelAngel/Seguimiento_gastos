@@ -4,7 +4,7 @@ import streamlit as st
 import json
 import pandas as pd
 from streamlit_option_menu import option_menu
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 
@@ -126,8 +126,9 @@ def mostrar():
         print("Current page:", st.session_state.page)  # Imprimir el cambio de página
         st.rerun()
 
-    # Obtener el mes actual
-    current_date = get_month_name(datetime.now())
+    # Obtener el mes actual    
+    previous_month_date = datetime.now().replace(day=1) - timedelta(days=1)
+    current_date = get_month_name(previous_month_date)
     eng_month = current_date.strftime("%B")
     eng_year = current_date.strftime("%Y")
     current_month = get_month_name(eng_month) + " " + eng_year
@@ -135,7 +136,6 @@ def mostrar():
     # Seleccionar el mes, por defecto el mes actual si está en los datos
     meses = list(tasks_data.keys())
     if current_month in meses:
-        
         selected_month = st.selectbox('Selecciona un mes', meses, index=meses.index(current_month))
     else:
         selected_month = st.selectbox('Selecciona un mes', meses)

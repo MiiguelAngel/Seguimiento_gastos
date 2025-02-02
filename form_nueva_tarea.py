@@ -104,14 +104,17 @@ def mostrar():
 
                 # Si la tarea es recurrente, modificar todas las tareas recurrentes con la misma descripción
                 if es_recurrente:
+                    tasks_data = Checklist.load_tasks(task_to_edit["selected"])
                     for mes, tareas in tasks_data.items():
                         for i, tarea in enumerate(tareas):
                             if tarea["descripcion"] == task_to_edit["task"]["descripcion"]:
                                 tasks_data[mes][i] = nueva_tarea
+                    Checklist.save_tasks(tasks_data, task_to_edit["selected"])
+                    st.success('Tarea editada con éxito')
+
                 else:
 
                     # Si la tarea no es recurrente, modificar solo la tarea actual
-                    tasks_data = Checklist.load_tasks(task_to_edit["selected"])
                     tasks_data[task_to_edit["selected_month"]][task_to_edit["index"]] = nueva_tarea
                     reiniciar_formulario()
                     Checklist.save_tasks(tasks_data, task_to_edit["selected"])
