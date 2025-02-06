@@ -2,6 +2,7 @@ import streamlit as st
 from pages import Checklist
 from datetime import datetime, timedelta
 from streamlit_option_menu import option_menu
+import uuid
 
 # CSS personalizado para el checkbox
 st.markdown("""
@@ -97,7 +98,8 @@ def mostrar():
                 "descripcion": descripcion,
                 "monto": monto,
                 "fecha": fecha.strftime('%Y-%m-%d'),
-                "completado": False
+                "completado": False,
+                "id": str(uuid.uuid4())
             }
             #--------------------------para editar un registro
             if task_to_edit:

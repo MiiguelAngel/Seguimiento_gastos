@@ -4,847 +4,984 @@
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2024-12-05",
-            "completado": true
+            "completado": false,
+            "id": "9d89b16d-4786-4f6b-98f4-57badf591226"
         },
         {
             "descripcion": "Arriendo de apartamento",
             "monto": 600000,
             "fecha": "2024-12-05",
-            "completado": true
+            "completado": true,
+            "id": "bf11ed36-e253-4418-ae59-aac640acd2ca"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2024-12-05",
+            "completado": true,
+            "id": "f7b3902b-ddfc-48ed-b3ac-3ff0222e5d60"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-12-05",
+            "completado": true,
+            "id": "2a5aa8b3-d1b1-4714-ab33-579e8de1d4cd"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2024-12-05",
+            "completado": true,
+            "id": "175dd5ce-4dcf-4032-a431-25dcb912e375"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-12-05",
+            "completado": true,
+            "id": "bd0e8f96-5d67-4d3a-b674-461f03666160"
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2024-12-05",
+            "completado": true,
+            "id": "b34e39a8-db7e-44a7-a0fe-d0bbcdf0bec8"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2024-12-05",
+            "completado": true,
+            "id": "09b5a5f1-abfe-4146-8713-81c930e4d003"
         }
     ],
     "Enero 2025": [
         {
-            "descripcion": "Pago plan celular",
-            "monto": 44000,
-            "fecha": "2025-02-05",
-            "completado": true
+            "descripcion": "Arriendo de apartamento ",
+            "monto": 650000,
+            "fecha": "2025-01-01",
+            "completado": true,
+            "id": "5da818bb-2465-445a-b7f4-24dd9b986027"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-01-05",
+            "completado": true,
+            "id": "db2d6e3b-1cf0-4732-85d8-509ad39a5723"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-01-05",
+            "completado": true,
+            "id": "246117b3-cefc-4a06-a489-8de67b9d633e"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-01-05",
+            "completado": true,
+            "id": "79729354-7836-4202-be79-5e73a4f1969f"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-01-05",
+            "completado": true,
+            "id": "c191ce49-0051-46c2-a4d4-80d6bb3a7dd1"
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-01-05",
+            "completado": true,
+            "id": "c12beb39-bfb7-4744-8157-9bc6b475c9c5"
         },
         {
             "descripcion": "Pago Luz",
             "monto": 45000,
             "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
-            "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-01-05",
-            "completado": true
-        },
-        {
-            "descripcion": "Arriendo de apartamento ",
-            "monto": 650000,
-            "fecha": "2025-01-01",
-            "completado": true
-        }
-    ],
-    "Febrero 2025": [
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-02-01",
-            "completado": false
-        },
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-02-05",
-            "completado": false
+            "completado": true,
+            "id": "b82542f0-00f7-439a-b625-9049cf6b2713"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": true,
+            "id": "cc45e014-4ca5-471a-b7f8-ba57dff37670"
+        }
+    ],
+    "Febrero 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "6aec26e6-df44-45a6-b0f1-2a9e59e66fe1"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "a781eb59-946b-462b-8af7-02cd6e8029b5"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "9e03b41f-293f-4c78-8975-6cd7ade9df67"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "1dd68582-111c-455b-8e9b-abf037ad22c3"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "e6007fb8-50ac-4656-bb0b-4467df602db5"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-02-04",
-            "completado": false
+            "completado": false,
+            "id": "ab7c93f8-0a69-4cff-acd4-d1345a013494"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-02-05",
-            "completado": false
-        }
-    ],
-    "Marzo 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-03-16",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-03-03",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-03-05",
-            "completado": false
+            "completado": false,
+            "id": "88a45c2c-2fa9-4750-b43a-43c8a3b897ba"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "695d41f7-efbb-443c-a28a-ac4cc01df154"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "094bcdc3-6881-451b-a68a-9e7e39ae561a"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-02-01",
+            "completado": false,
+            "id": "9517c2a6-a7c5-4318-854b-b51ffded228b"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "8e91cee3-9575-41be-8c8c-0929e645ef15"
+        }
+    ],
+    "Marzo 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "fe5f51e8-ec4a-48e8-8b62-75d89aede96e"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "52267867-c732-414c-97ab-0fa8af3e84e1"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "7025f267-de53-406f-ab90-0ca380d2cc65"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "ec3ae962-cf65-4a76-99d2-8309f6de5786"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "8572c255-32a3-4690-9576-ead5f7f0b131"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-03-05",
-            "completado": false
+            "completado": false,
+            "id": "0144b206-6fe2-40fa-b914-e71a2af99cf7"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-03-06",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-03-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-03-05",
-            "completado": false
-        }
-    ],
-    "Abril 2025": [
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-04-02",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-04-05",
-            "completado": false
+            "completado": false,
+            "id": "afdb655c-cd17-43cc-b24b-d2b56be25404"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "004ad8ff-f0be-4087-a147-545505e15497"
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
-            "fecha": "2025-04-05",
-            "completado": false
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-03-05",
+            "completado": false,
+            "id": "4d9e1899-7a37-48a9-bdb3-5b1ddeca75c5"
         },
         {
-            "descripcion": "Preciosos",
-            "monto": 50000,
-            "fecha": "2025-04-05",
-            "completado": false
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-03-16",
+            "completado": false,
+            "id": "98c8fea4-30e7-4735-94a9-5be691b1d39f"
         },
         {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-04-05",
-            "completado": false
-        },
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-03-03",
+            "completado": false,
+            "id": "97f947ea-9f74-4401-9a6a-20bb43bfa93c"
+        }
+    ],
+    "Abril 2025": [
         {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
             "fecha": "2025-04-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-04-05",
-            "completado": false
+            "completado": false,
+            "id": "06580654-88af-496f-a6e3-2623fce36ae6"
         },
         {
             "descripcion": "Cadena",
             "monto": 250000,
             "fecha": "2025-04-05",
-            "completado": false
+            "completado": false,
+            "id": "a56e5db1-b1e2-4550-9acc-a99887d5aa51"
         },
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Pago TDC",
+            "monto": 200000,
             "fecha": "2025-04-05",
-            "completado": false
+            "completado": false,
+            "id": "9dc54d17-9b5a-4597-be1e-b97bdbf8065d"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-04-05",
+            "completado": false,
+            "id": "6dc243ed-8442-459e-98e0-93ce15e5caa8"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-04-05",
+            "completado": false,
+            "id": "fdefe4ac-586d-4d84-87c6-1c538c54fb3d"
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-04-05",
+            "completado": false,
+            "id": "cd587b60-b51f-42d8-aaa1-06c91facf631"
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-04-05",
+            "completado": false,
+            "id": "4ec507cd-f028-43f2-b64c-47a2e3a607d4"
+        },
+        {
+            "descripcion": "Pago plan celular",
+            "monto": 44000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "f0d16fd7-efa6-4278-927c-dffe97438c60"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-04-05",
+            "completado": false,
+            "id": "d4efa2a0-e595-40dd-a48c-67fdfa244aac"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-04-02",
+            "completado": false,
+            "id": "34d9b9a8-754e-4b72-b26d-5c3e81b777a0"
         }
     ],
     "Mayo 2025": [
         {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "859f68f1-2c71-4a5b-9b8f-5a25eb3901a2"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "fbef7833-4d66-49aa-b8ab-87345ec9cff8"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "a1686214-40ea-4c74-b05e-fb92b06f4c2e"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "281b5382-91fe-4ed1-a686-83bef0383447"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "df507c45-8dd1-456f-aabe-bf6bf5b5dd3a"
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "52f65323-b419-497d-8617-100d18d05802"
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "49c862d7-6a03-4445-9db8-05ff34c0d906"
+        },
+        {
+            "descripcion": "Pago plan celular",
+            "monto": 44000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "359e21a8-3bda-41b2-9b11-65dd5c403a3d"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-05-05",
+            "completado": false,
+            "id": "a2c59144-efe4-4cba-97f5-d446a8a241be"
+        },
+        {
             "descripcion": "Prueba",
             "monto": 0,
             "fecha": "2025-05-15",
-            "completado": false
+            "completado": false,
+            "id": "eed726f6-31dd-46dc-95fd-376aa8b10f1e"
         },
         {
             "descripcion": "Ser la mejor",
             "monto": 0,
             "fecha": "2025-05-02",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago plan celular",
-            "monto": 44000,
-            "fecha": "2025-02-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Preciosos",
-            "monto": 50000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-05-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-05-05",
-            "completado": false
+            "completado": false,
+            "id": "3c63dd7b-3a61-4d43-ad75-4bd1b33b3c2c"
         }
     ],
     "Junio 2025": [
         {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-06-01",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
             "fecha": "2025-06-05",
-            "completado": false
+            "completado": false,
+            "id": "d0745750-2307-49d8-a234-07d2c56bc3a0"
         },
         {
-            "descripcion": "Pago plan celular",
-            "monto": 44000,
-            "fecha": "2025-02-05",
-            "completado": false
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-06-05",
+            "completado": false,
+            "id": "dd2e1f52-4206-43f4-ae43-7ebb6f3ba02a"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-06-05",
+            "completado": false,
+            "id": "32f9056f-1d7b-49df-9d00-b260319e8004"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-06-05",
+            "completado": false,
+            "id": "fc7a15a5-59b2-4330-9ee2-0b17cade01de"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-06-05",
+            "completado": false,
+            "id": "ca4016f7-b611-4493-869f-4b4b5ebbc2b8"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-06-05",
-            "completado": false
+            "completado": false,
+            "id": "86ee11b5-e4f6-4d62-b770-d33213b72933"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-06-04",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-06-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-06-05",
-            "completado": false
-        }
-    ],
-    "Julio 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-07-01",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-07-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-07-05",
-            "completado": false
+            "completado": false,
+            "id": "75804a2c-b453-46c0-be5c-5c6cd6d2eb40"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "d4040e9c-92c3-40c7-b14a-b37156273d4f"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-06-05",
+            "completado": false,
+            "id": "2dd28887-f75b-4355-a857-4e278191d8d8"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "af1324b7-1366-43ae-bc6e-eeda116b5361"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-06-01",
+            "completado": false,
+            "id": "2e74f509-387d-4ee8-9e94-0283be7533ca"
+        }
+    ],
+    "Julio 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "70fd0f98-3f3c-491d-9181-da7288b872ab"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "a923fc2b-ab7e-4b47-bfe1-2626320ba8e3"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "016df7a8-f611-460b-b5c9-e2c66d73c241"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "f24b88bd-8917-4051-8235-05f449fb7024"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "d3220193-bb65-4fe9-b22e-754b429b20f2"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-07-05",
-            "completado": false
+            "completado": false,
+            "id": "29df479b-929f-48a4-a0df-50d5f4cc387a"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-07-04",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-07-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-07-05",
-            "completado": false
-        }
-    ],
-    "Agosto 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-08-13",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-08-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-08-05",
-            "completado": false
+            "completado": false,
+            "id": "e0fad71e-c34c-449e-b889-6cb3928f5343"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "1f22bfd2-b35f-448e-b8ca-603ade3feb1e"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-07-05",
+            "completado": false,
+            "id": "35953521-14d8-4eb9-a40f-715567acd414"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "7233cfcb-5825-4d3a-a6b5-790c89f9cd70"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-07-01",
+            "completado": false,
+            "id": "d62a898c-b050-435b-8fa9-53270edaed5b"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-07-31",
+            "completado": false,
+            "id": "df1b3c20-4037-467a-85a1-20b89ce41674"
+        }
+    ],
+    "Agosto 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "727a6570-3904-46f1-8724-8efac893dcb8"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "4b5fa733-5b27-46d0-bfc9-f1a4381f2bc3"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "84b015e6-4d3e-4d89-baa3-50481bbdf813"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "2d13145a-ce1f-4722-8553-db3fe2b5692d"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "851571e6-2c5f-498d-baad-fffc14e4e7b5"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-08-05",
-            "completado": false
+            "completado": false,
+            "id": "d97d1722-57ce-404e-94e8-d955393d8788"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-08-03",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-08-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-08-05",
-            "completado": false
-        }
-    ],
-    "Septiembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-09-12",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-09-29",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-09-05",
-            "completado": false
+            "completado": false,
+            "id": "976615cd-d1b1-4a48-97db-26b26f0a79f5"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "45ce3d51-bd88-4052-a37d-9703bdddd1b3"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-08-05",
+            "completado": false,
+            "id": "f97d67e9-2c39-4b7b-baf7-15d21149fb40"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-08-13",
+            "completado": false,
+            "id": "fa2273f0-5f3e-42a3-a4d2-2f0ffe1c66d6"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-08-30",
+            "completado": false,
+            "id": "d7876e0d-69c8-4ff4-905a-9d38915d5b5a"
+        }
+    ],
+    "Septiembre 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "e2516f28-738c-40c4-9e02-50524c21b54a"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "6dcd6506-5375-41a4-91c8-43f281eb4f19"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "0278ac38-6655-4198-be3d-4803bf6e2008"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "a4730461-d58a-442c-8e68-8555ba53f0ff"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "35552b8c-dc18-4f70-9739-e40a29565b5f"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-09-05",
-            "completado": false
+            "completado": false,
+            "id": "b8bc3d9d-b547-4a2b-9b43-259223375da0"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-09-02",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-09-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-09-05",
-            "completado": false
-        }
-    ],
-    "Octubre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-10-12",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-10-29",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-10-05",
-            "completado": false
+            "completado": false,
+            "id": "eac94038-c126-440b-ab92-99c4e0d7d4e9"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "4f0395bc-f16c-4096-a1b1-0440468bca12"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-09-05",
+            "completado": false,
+            "id": "5708dcc0-04f0-4e02-aa29-5e3bcd41c99f"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-09-12",
+            "completado": false,
+            "id": "bd10875d-bd49-4ed8-8549-fba1308fa342"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-09-29",
+            "completado": false,
+            "id": "e0c4e49b-f113-4972-b040-9efb385e91f6"
+        }
+    ],
+    "Octubre 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "8e48ea6f-3b01-42c1-825b-428ffd0108c2"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "b9478a9a-283b-47d6-b345-17d71ee376c9"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "6bf7f4fa-6f32-496b-b7d4-d6a3634a4ff6"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "e8ab4bbb-2f64-4542-a7fa-e20da9169f1c"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "51071742-fa85-4947-bb3b-a2f9670960d0"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-10-05",
-            "completado": false
+            "completado": false,
+            "id": "b0dd62c0-120f-4f0f-af17-191077bde3bc"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-10-02",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-10-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-10-05",
-            "completado": false
-        }
-    ],
-    "Noviembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-11-11",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-11-28",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-11-05",
-            "completado": false
+            "completado": false,
+            "id": "c4f9286f-342d-443d-a27b-a86d6619fdc0"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "65ef6205-58c2-49d8-97da-0c42efb8074c"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-10-05",
+            "completado": false,
+            "id": "7c13cc42-07e2-4184-a58b-03bca56512f1"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-10-12",
+            "completado": false,
+            "id": "3bd8b250-3775-4dca-a5e3-83497658c150"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-10-29",
+            "completado": false,
+            "id": "9b995801-ae50-4b1b-bfb7-3028e6a3ac1f"
+        }
+    ],
+    "Noviembre 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "a093b5cc-c40f-4001-be3b-6a62e545362a"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "29871aaa-60b2-4141-b535-65b424513cda"
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "7bf286ce-ac06-4b70-9666-0c4da9599f1c"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "12f3ccd3-d6ac-40a1-b968-c1a5a22e4163"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "c29b9ccf-b75e-49c5-8607-6efcbbe7c14c"
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-11-05",
-            "completado": false
+            "completado": false,
+            "id": "ebbbaf5a-459e-4a11-860d-f2dbcdc56a59"
         },
         {
             "descripcion": "Preciosos",
             "monto": 50000,
             "fecha": "2025-11-01",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-11-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
-            "fecha": "2025-11-05",
-            "completado": false
-        }
-    ],
-    "Diciembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-12-11",
-            "completado": false
-        },
-        {
-            "descripcion": "Ser la mejor",
-            "monto": 0,
-            "fecha": "2025-12-28",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2025-12-05",
-            "completado": false
+            "completado": false,
+            "id": "31ab7d14-d356-4296-8fd9-82062bf630cf"
         },
         {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": false,
+            "id": "1b39921b-d33e-494a-9aaa-4b8a2daeaf56"
         },
         {
-            "descripcion": "Pago Gas",
-            "monto": 50000,
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-11-05",
+            "completado": false,
+            "id": "cc18e046-78bb-4253-96f2-fbe27e84092c"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-11-11",
+            "completado": false,
+            "id": "3e5cea2f-e5cf-4513-b650-e399cc034faf"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-11-28",
+            "completado": false,
+            "id": "effc5dbf-7c2e-4f3e-9f33-f614c45bef5d"
+        }
+    ],
+    "Diciembre 2025": [
+        {
+            "descripcion": "Arriendo de apartamento",
+            "monto": 600000,
             "fecha": "2025-12-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Preciosos",
-            "monto": 50000,
-            "fecha": "2025-12-01",
-            "completado": false
-        },
-        {
-            "descripcion": "EPS Sanitas",
-            "monto": 159299,
-            "fecha": "2025-12-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-12-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago Agua",
-            "monto": 200000,
-            "fecha": "2025-12-05",
-            "completado": false
+            "completado": false,
+            "id": "eeb3d203-d3c6-4a95-acf2-c553a95e1b0a"
         },
         {
             "descripcion": "Cadena",
             "monto": 250000,
             "fecha": "2025-12-05",
-            "completado": false
+            "completado": false,
+            "id": "acbf8ebe-eb6f-4722-b3e6-89a879225235"
         },
         {
-            "descripcion": "Arriendo de apartamento",
-            "monto": 600000,
+            "descripcion": "Pago TDC",
+            "monto": 200000,
             "fecha": "2025-12-05",
-            "completado": false
+            "completado": false,
+            "id": "4674a7e9-c2af-4093-9d98-e8e273c8e598"
+        },
+        {
+            "descripcion": "Pago Agua",
+            "monto": 200000,
+            "fecha": "2025-12-05",
+            "completado": false,
+            "id": "6043fdbf-2e29-4464-a097-cba308a5f444"
+        },
+        {
+            "descripcion": "EPS Sanitas",
+            "monto": 159299,
+            "fecha": "2025-12-05",
+            "completado": false,
+            "id": "23d4b803-cca1-471b-bd01-f23e6afc34cb"
+        },
+        {
+            "descripcion": "Pago Gas",
+            "monto": 50000,
+            "fecha": "2025-12-05",
+            "completado": false,
+            "id": "62f72ff8-e99b-4e64-86a6-798961eb95a2"
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-12-01",
+            "completado": false,
+            "id": "1f174212-abb1-43c5-86c2-841e2c0f96cc"
+        },
+        {
+            "descripcion": "Pago plan celular",
+            "monto": 44000,
+            "fecha": "2025-02-05",
+            "completado": false,
+            "id": "cca61a29-838b-4949-958d-fd1e1cfcf61e"
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2025-12-05",
+            "completado": false,
+            "id": "1ba4f256-63ec-4c26-a0e6-9862db956657"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-12-11",
+            "completado": false,
+            "id": "5cd0bdec-04f0-4263-bc6c-c4188574c5e7"
+        },
+        {
+            "descripcion": "Ser la mejor",
+            "monto": 0,
+            "fecha": "2025-12-28",
+            "completado": false,
+            "id": "02d6cb3f-88d3-4896-bb53-71816276ba28"
         }
     ],
     "Enero-2025": []

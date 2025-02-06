@@ -1,946 +1,1099 @@
 {
     "Diciembre 2024": [
         {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2024-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Mercado Mes",
-            "monto": 400000,
-            "fecha": "2024-12-14",
-            "completado": false
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2024-12-01",
+            "completado": false,
+            "id": "352a5a3c-3e78-4c36-94fc-25e3fef9d7e1"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2024-12-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2024-12-01",
-            "completado": false
-        }
-    ],
-    "Enero 2025": [
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-01-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-01-14",
-            "completado": false
+            "completado": false,
+            "id": "4d47e499-d1a9-4d15-bd07-b0f15c9458b6"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-01-14",
-            "completado": false
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "b3fa485e-1547-4f53-b3e5-0b4886adea7c"
         },
         {
-            "descripcion": "Arriendo apartamento",
-            "monto": 650000,
-            "fecha": "2025-01-31",
-            "completado": false
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "de709f09-b48a-49f3-96cd-06088100e252"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "69eae8d5-0014-484a-9ee9-e62c18d5c0b4"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "f4b096fa-4e14-46d7-bcfe-de6990e660f2"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "e109bf00-8f4d-4190-a4fd-2178c8f20d8f"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "ebd0a35d-be81-4b08-982a-766057ac5dd6"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "d5f39638-48a1-4d16-aa63-c457999f8b6f"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "14d829c2-40f2-43f3-87a7-c0f94d840538"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2024-12-14",
+            "completado": false,
+            "id": "686a2156-d25f-41eb-9a16-0cdeb6c75e1e"
+        }
+    ],
+    "Enero 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-01-01",
+            "completado": false,
+            "id": "183f98a0-9609-4683-9995-93cbece54ad1"
         },
         {
             "descripcion": "Cuota - Capital",
             "monto": 1700000,
             "fecha": "2025-01-01",
-            "completado": false
-        }
-    ],
-    "Febrero 2025": [
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-02-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-02-14",
-            "completado": false
+            "completado": false,
+            "id": "ce20e869-0d95-4433-865b-831528a432c9"
         },
         {
             "descripcion": "TDC",
             "monto": 300000,
-            "fecha": "2025-02-14",
-            "completado": false
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "47bb9c70-ea40-4081-8205-cf1ad665d7d0"
         },
         {
-            "descripcion": "Mercado Mes",
-            "monto": 400000,
-            "fecha": "2025-02-14",
-            "completado": false
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "966cde14-30c4-4a03-b35a-9e402b11e038"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "1267ab21-dce4-4eef-9ed0-e2e113217ff2"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "227b7216-1d7b-4d8c-be41-4ff36ba7a58c"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "f373ca4b-52e3-4c21-8faa-341deceb8f2d"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "03c16e01-0646-4fc4-ab0d-bc0fa1c0d703"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "8e00910a-cbfa-4e21-8930-b3162ee794fb"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "55eb381b-e33c-4dc0-81f8-f6a672d2c2c2"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-01-14",
+            "completado": false,
+            "id": "f3d27581-1ff5-48e4-84f9-b65ef1229012"
+        }
+    ],
+    "Febrero 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-02-01",
+            "completado": false,
+            "id": "a94142e1-6193-4da9-a82b-fad9693fa0d7"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-02-28",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-02-01",
-            "completado": false
-        }
-    ],
-    "Marzo 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-03-03",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-03-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-03-14",
-            "completado": false
+            "completado": false,
+            "id": "d42c8631-b1df-4d39-b02b-5000ab407f07"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-03-14",
-            "completado": false
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "bf2a979a-617f-44fe-8cbc-a1e1d3cd07a3"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "ec7dd20c-ab75-428f-82bc-61c9314ec531"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "19fe94bf-2f3a-4cb7-b358-6c131e7c3a0c"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "c1595250-13c9-44ef-99e0-5dff2bcea586"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "f65a79be-128e-4374-a7cd-0ef6d67f7ada"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "abecfe01-c75b-4612-996f-58f54c6ed527"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "dd633678-02f9-44bf-a48d-151065e1d823"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-02-14",
+            "completado": false,
+            "id": "7967cbb8-b7c8-46b9-a82b-3bae549369a5"
+        }
+    ],
+    "Marzo 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-03-01",
+            "completado": false,
+            "id": "39b2ac4a-bcec-44d5-8160-cca6535f0f3d"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-03-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-03-01",
-            "completado": false
-        }
-    ],
-    "Abril 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-04-02",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-04-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-04-14",
-            "completado": false
+            "completado": false,
+            "id": "eabc93e6-c97b-43d3-913a-6047181aa547"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-04-14",
-            "completado": false
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "3f72462c-0092-4532-8950-412f7e78ca11"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "0ddb66b9-ba66-4708-8cf4-f03748effb2a"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "57022772-4c2c-471a-9d9c-e782b2e14f08"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "0dc9926f-7ff1-4f6d-b5ad-fd56f5767979"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "d4eac525-1b0c-4484-bdfb-ec1bb0b56733"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "a2e861c7-c0a2-4226-81df-d2b949ac7ff0"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "06fe6e84-721a-4bdf-8895-2969a88c0727"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "592ca5fe-b0b9-4c06-ae4a-b089e73e4ec6"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-03-14",
+            "completado": false,
+            "id": "2ee40820-7b76-4c6a-b062-27f79a173822"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-03-03",
+            "completado": false,
+            "id": "8e208b18-439a-4962-9347-1c8f623044d5"
+        }
+    ],
+    "Abril 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-04-01",
+            "completado": false,
+            "id": "5ea81f02-0022-4638-be4d-d057f52a98cc"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-04-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-04-01",
-            "completado": false
-        }
-    ],
-    "Mayo 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-05-02",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-05-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-05-14",
-            "completado": false
+            "completado": false,
+            "id": "50434fb1-b15d-4d98-96b0-1e35d7005d2e"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-05-14",
-            "completado": false
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "6b9985db-d967-48e3-8289-f5c424a2522a"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "f8cb74f7-8ba2-4eec-8b03-291f93b5971c"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "6f3519f2-143e-4101-a849-b6316fc2a562"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "a4dde13f-5ba5-4252-90db-724ea5b2ea79"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "c8f80403-8808-4a88-88f8-7da6571835d0"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "01792c8e-5a78-4bb6-bc84-928459868988"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "c9321a1a-996d-498b-8c95-3f3bdba7eaac"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "3fd11785-f9c9-42f6-b7e8-de8e3784fdc1"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-04-14",
+            "completado": false,
+            "id": "92ec106f-dcfb-412f-bee7-a8454fa8a7bf"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-04-02",
+            "completado": false,
+            "id": "9ea1b8a8-0f35-4f9d-a27a-8b6135e092ee"
+        }
+    ],
+    "Mayo 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-05-01",
+            "completado": false,
+            "id": "6d616e63-5af8-4e4b-b788-8ed9a952c881"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-05-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-05-01",
-            "completado": false
-        }
-    ],
-    "Junio 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-06-01",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-06-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-06-14",
-            "completado": false
+            "completado": false,
+            "id": "a60b342e-496b-475e-b631-eb750f57d549"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-06-14",
-            "completado": false
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "3b6b1056-dad4-4943-ba74-edb5f3222bb2"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "fb4fbca4-2a77-4ebe-af4b-e1a199d01752"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "acc8e8ff-88d2-488a-a7b0-cc7589b9395f"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "8f992c4d-85a3-472e-9990-7a1c30315e5c"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "9412fa56-1b9d-49c2-927a-6d637c8263e8"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "8ce82d03-6a78-462a-8039-04b9c5ae2ab0"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "037fa5ef-2eee-41b5-9c3c-4dd1b2bc9653"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "a6b9da8e-bdeb-4f6b-845d-2abcac74374d"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-05-14",
+            "completado": false,
+            "id": "aece7513-12e5-463f-a790-ea09e4739a54"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-05-02",
+            "completado": false,
+            "id": "ee6114f8-581d-4cff-b440-e0f290ee5f83"
+        }
+    ],
+    "Junio 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-06-01",
+            "completado": false,
+            "id": "a470bfed-72d4-4d90-9bf3-024c94d05c3a"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-06-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-06-01",
-            "completado": false
-        }
-    ],
-    "Julio 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-07-01",
-            "completado": false
-        },
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-07-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-07-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-07-14",
-            "completado": false
+            "completado": false,
+            "id": "921d8ddf-9c33-4bc5-a8ce-32440ca2b130"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-07-14",
-            "completado": false
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "b0235b12-440f-423a-b987-8ce67f233b11"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "f1dacc55-dc30-4ffa-8967-291109c62dfd"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "bed4163d-e7b6-4a83-ae39-a186b84a3f90"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "284a5b0d-c693-4cdc-a955-9bf74805d58f"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "8c321f75-b43d-43eb-a963-56411490cf20"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "c7ed95ec-b4bf-42d4-a722-6d7a188443ea"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "6a3d78a9-dc32-4fd5-8543-95df4126a7ba"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "fbc02a53-77dd-4a07-919a-9b281e8a0314"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-06-14",
+            "completado": false,
+            "id": "ea67d6a8-b4d9-48c0-ab75-aa43f0576710"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-06-01",
+            "completado": false,
+            "id": "29533c4c-1ee5-4816-9d44-0f12a84cf290"
+        }
+    ],
+    "Julio 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-07-01",
+            "completado": false,
+            "id": "12a0afd3-deac-4466-9c31-3c4466c10a4d"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-07-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-07-01",
-            "completado": false
-        }
-    ],
-    "Agosto 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-08-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-08-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-08-14",
-            "completado": false
+            "completado": false,
+            "id": "8056f423-1f41-46e7-a50a-df066afec452"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-08-14",
-            "completado": false
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "fc48858b-dba8-4f2c-897a-ce2ae5bdd678"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "ed03c9fb-d4ac-462c-afaa-2a59544aeb3b"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "03dd113c-8ef1-4ddf-ad3b-62c435508366"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "99fc559c-2201-4f0a-9e1b-079f6e61087e"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "28d78532-7753-4c90-ad20-85ef68217039"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "22f30bed-b80a-48fd-bc9a-85beaee9692a"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "eba25982-85e3-4b84-b39f-8807df150ded"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "26d04ed4-8a2e-4c46-aacf-a1fca96afdef"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-07-14",
+            "completado": false,
+            "id": "0248ad3c-bf7f-4e1c-85b7-42dc8a506c92"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-01",
+            "completado": false,
+            "id": "ff7efde7-879a-432f-ae41-32434aa633ee"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-07-31",
+            "completado": false,
+            "id": "31991fda-dc1d-4403-8ce2-15d0e291847c"
+        }
+    ],
+    "Agosto 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-08-01",
+            "completado": false,
+            "id": "47b5750a-522c-4a6f-84b2-3b8dfeaf305a"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-08-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-08-01",
-            "completado": false
-        }
-    ],
-    "Septiembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-09-29",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-09-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-09-14",
-            "completado": false
+            "completado": false,
+            "id": "bcd206d3-93ad-4099-92d3-544800a23471"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-09-14",
-            "completado": false
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "1780ffeb-392c-470a-af1e-2b5645483c1e"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "620ea129-ba68-470d-b8d1-3ec15c40e713"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "d8e9a60d-9efe-4a4d-a8f0-404da530a6cf"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "5ffbd272-ab1e-4e4e-863c-57f3e281b4f7"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "5eca2200-2005-4906-bd0f-f39ad328b005"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "7b0322f6-c15c-4745-97a5-427ad072b55d"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "31d84c1e-3ee0-4e5c-80c7-cf7a91560464"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "89217b0b-406a-4648-b786-e01421e0a90d"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-08-14",
+            "completado": false,
+            "id": "8cddb870-87b7-4cb3-81d3-4c2d31b47130"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-08-30",
+            "completado": false,
+            "id": "bbe3a55b-786d-4168-b1ae-cba7ec8ef42a"
+        }
+    ],
+    "Septiembre 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-09-01",
+            "completado": false,
+            "id": "e0e2a6fd-8d8c-4471-a246-51eea919fc99"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-09-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-09-01",
-            "completado": false
-        }
-    ],
-    "Octubre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-10-29",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-10-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-10-14",
-            "completado": false
+            "completado": false,
+            "id": "996922ea-2c58-4084-8223-8e4a53d84cf5"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-10-14",
-            "completado": false
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "fe05b297-610f-4e6f-81a2-4c296a7fc111"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "b6f0a02e-191f-4572-90f8-8be72b169d87"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "235df4bc-5318-4dab-a998-c70b24bd752d"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "7d34698a-0ef8-4b62-a1a5-6000079da7ff"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "6639345b-bdd5-4fe8-8f89-58df4fffe87a"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "9cf99798-553b-425f-b4c5-95426e2c79c6"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "1637ca0c-f707-4ea9-806b-915297dfec5d"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "3ae50f15-c905-489a-a39e-2d962e6826f0"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-09-14",
+            "completado": false,
+            "id": "877bac95-b0bc-49b5-8881-05c46c2b4d83"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-09-29",
+            "completado": false,
+            "id": "56a1a58b-cd5a-4b75-9b19-15476f4a52cf"
+        }
+    ],
+    "Octubre 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-10-01",
+            "completado": false,
+            "id": "4b850d1a-5027-4e4c-876f-f4dcfe2f3adb"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-10-31",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-10-01",
-            "completado": false
-        }
-    ],
-    "Noviembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-11-28",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-11-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-11-14",
-            "completado": false
+            "completado": false,
+            "id": "caa96ad0-bd51-4296-9ad2-2a741715de98"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-11-14",
-            "completado": false
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "ed8fe214-4c32-4a2e-b490-90da0effa5e2"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "afbe065a-dfea-4fdc-96e3-00d3a3a131d3"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "163edae0-b46b-4cff-8808-a21b39848e28"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "5fb31042-f351-440e-9984-fbdd1027f0d8"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "e861c172-0191-46cf-bca5-42b4c044bf36"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "2cdfc145-a456-4733-9290-895c1e813968"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "cddfc3d1-1dae-4160-8a53-08b7efb7bf2f"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "51cd6b49-5eda-4146-8b8c-94ee8bb21d2d"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-10-14",
+            "completado": false,
+            "id": "2502bb6e-97cf-4997-809c-fd3b3c6cae4d"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-10-29",
+            "completado": false,
+            "id": "6af05046-67af-43cb-a352-7ce8ec03ed24"
+        }
+    ],
+    "Noviembre 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-11-01",
+            "completado": false,
+            "id": "4a892fb0-e74e-4af2-80d7-c620522b0b82"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-11-30",
-            "completado": false
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-11-01",
-            "completado": false
-        }
-    ],
-    "Diciembre 2025": [
-        {
-            "descripcion": "Prueba",
-            "monto": 0,
-            "fecha": "2025-12-28",
-            "completado": false
-        },
-        {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Plan Celular",
-            "monto": 50000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "Parqeadero Carro",
-            "monto": 250000,
-            "fecha": "2025-12-14",
-            "completado": false
-        },
-        {
-            "descripcion": "TDC",
-            "monto": 300000,
-            "fecha": "2025-12-14",
-            "completado": false
+            "completado": false,
+            "id": "b95114a7-f663-4f64-aba9-a7b289042c78"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
-            "fecha": "2025-12-14",
-            "completado": false
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "de74368b-e1ea-4397-a0ef-23d1f01722d5"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "b647f60d-8005-4a0f-bae3-dd5ec7e16995"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "73144280-d9f2-4b9e-bc9d-a0ddf5d08aea"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "6248df57-b1bb-4ff5-8e26-bacf33f92378"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "5f3e561b-2eec-42e8-8820-310e8b3c8e7b"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "3291cfc6-f230-41f2-b998-4a3ecc49f5fb"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "712371e0-f5a5-48b8-9453-41087c57ef5c"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "22095c20-1d12-4b73-9c1f-6d5d085c51f9"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-11-14",
+            "completado": false,
+            "id": "1989da48-829d-4829-85b0-828bb46eee1d"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-11-28",
+            "completado": false,
+            "id": "797718fc-89c9-4b70-8eec-bf27c0e440f1"
+        }
+    ],
+    "Diciembre 2025": [
+        {
+            "descripcion": "Cuota - Capital",
+            "monto": 1700000,
+            "fecha": "2025-12-01",
+            "completado": false,
+            "id": "d04181d7-4de1-46ed-8a35-11625d2a9269"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2025-12-31",
-            "completado": false
+            "completado": false,
+            "id": "c7a3a1d4-7ffd-48b4-a7a9-e2d22bbe2bb2"
         },
         {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-12-01",
-            "completado": false
+            "descripcion": "Mercado Mes",
+            "monto": 400000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "7052db6c-7fe1-4854-93b6-571ba5940450"
+        },
+        {
+            "descripcion": "TDC",
+            "monto": 300000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "1dcc0369-4e27-4224-8c4b-fca5ef035224"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "7188784b-e0fb-4c4a-9b95-77ce18c8d374"
+        },
+        {
+            "descripcion": "Parqeadero Carro",
+            "monto": 250000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "3d66403c-57ed-4461-b0a1-bb1acd96ca57"
+        },
+        {
+            "descripcion": "Sanitas",
+            "monto": 160000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "4d4d08ef-0538-40ae-bef9-8138316aaaa8"
+        },
+        {
+            "descripcion": "Internet girasol",
+            "monto": 120000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "ab245440-d442-4b10-8266-15e57cc410d2"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "3342ad7f-9e82-4fd9-a8f8-ac932e9ac7a3"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "20d3a32f-9d52-4725-b4d5-3fb0f9358b5d"
+        },
+        {
+            "descripcion": "Plan Celular",
+            "monto": 50000,
+            "fecha": "2025-12-14",
+            "completado": false,
+            "id": "2cbb77bb-b978-4a04-aae4-8cf8a17581ff"
+        },
+        {
+            "descripcion": "Prueba",
+            "monto": 0,
+            "fecha": "2025-12-28",
+            "completado": false,
+            "id": "7ac08733-472a-43ba-8a1d-653a18b9ab2f"
         }
     ]
 }

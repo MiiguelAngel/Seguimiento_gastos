@@ -26,7 +26,7 @@ def load_tasks(usuario):
     
     # Ordenar las tareas
     for month, tasks in tasks_data.items():
-        tasks_data[month] = sorted(tasks, key=lambda x: (x['completado'], x['monto']))
+        tasks_data[month] = sorted(tasks, key=lambda x: (x['completado'], -x['monto']))
     
     return tasks_data
 
@@ -37,11 +37,24 @@ def save_tasks(tasks, usuario):
     with open(filename, 'w') as f:
         json.dump(tasks, f, indent=4)
 
-def save_task_update(tasks_data, selected_month, task_index, updated_task, selected):
-    # Actualizar solo la tarea específica en el JSON
-    tasks_data[selected_month][task_index] = updated_task
+def save_task_update(tasks_data, selected_month, task_id, updated_task, selected):
+    # Buscar y actualizar la tarea específica en el JSON
+    for i, task in enumerate(tasks_data[selected_month]):
+        if task["id"] == task_id:
+            tasks_data[selected_month][i] = updated_task
+            break
+    # Reorganizar las tareas para poner las completadas al final y ordenar por monto descendente
+    tasks_data[selected_month] = sorted(tasks_data[selected_month], key=lambda x: (x['completado'], -x['monto']))
+    # Guardar los cambios
     save_tasks(tasks_data, selected)
 
+
+# Función para eliminar una tarea utilizando el identificador único
+def delete_task(tasks_data, selected_month, task_id, selected):
+    # Buscar y eliminar la tarea específica en el JSON
+    tasks_data[selected_month] = [task for task in tasks_data[selected_month] if task["id"] != task_id]
+    # Guardar los cambios
+    save_tasks(tasks_data, selected)
 
 # Inicializar estado de sesión
 def initialize_session_state():
@@ -72,12 +85,32 @@ def get_month_name(date):
         return date
 
 
+def load_tasks_mes(usuario):
 
+    # Cargar las tareas para el usuario seleccionado
+    tasks_data = load_tasks(usuario)
+
+    # Obtener el mes actual    
+    previous_month_date = datetime.now().replace(day=1) - timedelta(days=1)
+    current_date = get_month_name(previous_month_date)
+    eng_month = current_date.strftime("%B")
+    eng_year = current_date.strftime("%Y")
+    current_month = get_month_name(eng_month) + " " + eng_year
+
+    # Seleccionar el mes, por defecto el mes actual si está en los datos
+    meses = list(tasks_data.keys())
+    if current_month in meses:
+        selected_month = st.selectbox('Selecciona un mes', meses, index=meses.index(current_month))
+    else:
+        selected_month = st.selectbox('Selecciona un mes', meses)
+
+    # Mostrar las tareas del mes
+    tasks = tasks_data[selected_month]
+
+    return tasks, selected_month, tasks_data
 
 
 def mostrar():
-
-    
 
     load_css('assets/style.css')
 
@@ -116,32 +149,12 @@ def mostrar():
     }
     )
 
-    # Cargar las tareas para el usuario seleccionado
-    tasks_data = load_tasks(selected)
-
 
     # Botón estilizado "Añadir nueva tarea"
     if st.button('Añadir nueva tarea', key='add_task', help='Añadir una nueva tarea'):
         st.session_state.page = "form_nueva_tarea"
         print("Current page:", st.session_state.page)  # Imprimir el cambio de página
         st.rerun()
-
-    # Obtener el mes actual    
-    previous_month_date = datetime.now().replace(day=1) - timedelta(days=1)
-    current_date = get_month_name(previous_month_date)
-    eng_month = current_date.strftime("%B")
-    eng_year = current_date.strftime("%Y")
-    current_month = get_month_name(eng_month) + " " + eng_year
-
-    # Seleccionar el mes, por defecto el mes actual si está en los datos
-    meses = list(tasks_data.keys())
-    if current_month in meses:
-        selected_month = st.selectbox('Selecciona un mes', meses, index=meses.index(current_month))
-    else:
-        selected_month = st.selectbox('Selecciona un mes', meses)
-
-    # Mostrar las tareas del mes seleccionado con un diseño amigable
-    tasks = tasks_data[selected_month]
 
     
     
@@ -191,6 +204,9 @@ def mostrar():
         unsafe_allow_html=True
     )
     #-------------------------------------------------------------------------
+
+    # Cargar las tareas del mes seleccionado
+    tasks, selected_month, tasks_data = load_tasks_mes(selected)
 
     # Mostrar las tareas con el diseño modificado
     for i, task in enumerate(tasks):
@@ -244,10 +260,15 @@ def mostrar():
         
         col1, col2, col3, col4 = st.columns([0.5, 3, 0.5, 0.5])
         with col1:
-            checkbox_value = st.toggle(f' ', key=f'check_{selected}_{selected_month}_{i}', value=task["completado"])
+            checkbox_key = f'check_{selected}_{selected_month}_{task["id"]}'
+            # checkbox_value = st.toggle(f' ', key=f'check_{selected}_{selected_month}_{i}', value=task["completado"])
+            checkbox_value = st.toggle(f' ', key=checkbox_key, value=task["completado"])
             if checkbox_value != task["completado"]:
+                # Extraer el id del checkbox_key
+                task_id = checkbox_key.split('_')[-1]  # La última parte del key será el id
                 task["completado"] = checkbox_value
-                save_task_update(tasks_data, selected_month, i, task, selected)  # Guardar cambios inmediatos solo para la tarea específica
+                save_task_update(tasks_data, selected_month, task_id, task, selected)
+                st.rerun()
         
 
         with col2:
@@ -276,13 +297,15 @@ def mostrar():
         #     st.markdown(f"<p class='task-desc {desc_class}'>{task['fecha']}</p>", unsafe_allow_html=True)
         
         with col3:
-            if st.button('✏️', key=f'edit_{selected}_{selected_month}_{i}', help="Editar tarea"):
+            if st.button('✏️', key=f'edit_{selected}_{selected_month}_{task["id"]}', help="Editar tarea"):
+                checkbox_key = f'check_{selected}_{selected_month}_{task["id"]}'
+                task_id = checkbox_key.split('_')[-1]  # La última parte del key será el id
                 st.session_state.page = "form_nueva_tarea"
                 st.session_state.wait_new_tarea = "Awaiting new task data"
                 print("Current page:", st.session_state.page)  # Imprimir el cambio de página
                 
                 st.session_state.edit_task = {
-                    "index": i,
+                    "id": task_id,
                     "selected": selected,
                     "selected_month": selected_month,
                     "task": task
@@ -290,7 +313,8 @@ def mostrar():
                 st.rerun()
 
         with col4:
-            if st.button('❌', key=f'delete_{selected}_{selected_month}_{i}', help="Eliminar tarea"):
-                del tasks[i]
+            if st.button('❌', key=f'delete_{selected}_{selected_month}_{task["id"]}', help="Eliminar tarea"):
+                delete_task(tasks_data, selected_month, task["id"], selected)
                 save_tasks(tasks_data, selected)
         st.markdown('<div class="task-container">', unsafe_allow_html=True)
+    
