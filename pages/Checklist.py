@@ -248,8 +248,8 @@ def mostrar():
             if checkbox_value != task["completado"]:
                 task["completado"] = checkbox_value
                 save_task_update(tasks_data, selected_month, i, task, selected)  # Guardar cambios inmediatos solo para la tarea específica
-
         
+
         with col2:
             desc_class = "completed" if task["completado"] else ""
         

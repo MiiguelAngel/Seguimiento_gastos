@@ -1,16 +1,16 @@
 {
     "Diciembre 2024": [
         {
-            "descripcion": "Pago Luz",
-            "monto": 40000,
-            "fecha": "2024-12-05",
-            "completado": true
-        },
-        {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
             "completado": false
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 40000,
+            "fecha": "2024-12-05",
+            "completado": true
         },
         {
             "descripcion": "Pago Gas",
@@ -51,40 +51,40 @@
     ],
     "Enero 2025": [
         {
-            "descripcion": "Pago Luz",
-            "monto": 45000,
-            "fecha": "2025-01-05",
-            "completado": false
-        },
-        {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
-            "completado": false
+            "completado": true
+        },
+        {
+            "descripcion": "Pago Luz",
+            "monto": 45000,
+            "fecha": "2025-01-05",
+            "completado": true
         },
         {
             "descripcion": "Pago Gas",
             "monto": 50000,
             "fecha": "2025-01-05",
-            "completado": false
+            "completado": true
         },
         {
             "descripcion": "EPS Sanitas",
             "monto": 159299,
             "fecha": "2025-01-05",
-            "completado": false
-        },
-        {
-            "descripcion": "Pago TDC",
-            "monto": 200000,
-            "fecha": "2025-01-05",
-            "completado": false
+            "completado": true
         },
         {
             "descripcion": "Pago Agua",
             "monto": 200000,
             "fecha": "2025-01-05",
-            "completado": false
+            "completado": true
+        },
+        {
+            "descripcion": "Pago TDC",
+            "monto": 200000,
+            "fecha": "2025-01-05",
+            "completado": true
         },
         {
             "descripcion": "Cadena",
@@ -119,15 +119,15 @@
             "completado": false
         },
         {
-            "descripcion": "Preciosos",
-            "monto": 50000,
-            "fecha": "2025-02-04",
-            "completado": false
-        },
-        {
             "descripcion": "Pago plan celular",
             "monto": 44000,
             "fecha": "2025-02-05",
+            "completado": false
+        },
+        {
+            "descripcion": "Preciosos",
+            "monto": 50000,
+            "fecha": "2025-02-04",
             "completado": false
         },
         {
