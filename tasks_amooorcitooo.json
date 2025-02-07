@@ -4,78 +4,78 @@
             "descripcion": "Cuota - Capital",
             "monto": 1700000,
             "fecha": "2024-12-01",
-            "completado": false,
+            "completado": true,
             "id": "352a5a3c-3e78-4c36-94fc-25e3fef9d7e1"
         },
         {
             "descripcion": "Arriendo apartamento",
             "monto": 650000,
             "fecha": "2024-12-31",
-            "completado": false,
+            "completado": true,
             "id": "4d47e499-d1a9-4d15-bd07-b0f15c9458b6"
         },
         {
             "descripcion": "Mercado Mes",
             "monto": 400000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "b3fa485e-1547-4f53-b3e5-0b4886adea7c"
         },
         {
             "descripcion": "TDC",
             "monto": 300000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "de709f09-b48a-49f3-96cd-06088100e252"
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2024-12-14",
-            "completado": false,
-            "id": "69eae8d5-0014-484a-9ee9-e62c18d5c0b4"
         },
         {
             "descripcion": "Parqeadero Carro",
             "monto": 250000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "f4b096fa-4e14-46d7-bcfe-de6990e660f2"
+        },
+        {
+            "descripcion": "Cadena",
+            "monto": 250000,
+            "fecha": "2024-12-14",
+            "completado": true,
+            "id": "69eae8d5-0014-484a-9ee9-e62c18d5c0b4"
         },
         {
             "descripcion": "Sanitas",
             "monto": 160000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "e109bf00-8f4d-4190-a4fd-2178c8f20d8f"
-        },
-        {
-            "descripcion": "Internet girasol",
-            "monto": 120000,
-            "fecha": "2024-12-14",
-            "completado": false,
-            "id": "ebd0a35d-be81-4b08-982a-766057ac5dd6"
         },
         {
             "descripcion": "Internet apartamento",
             "monto": 120000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "d5f39638-48a1-4d16-aa63-c457999f8b6f"
         },
         {
-            "descripcion": "Youtube Premium",
-            "monto": 50000,
+            "descripcion": "Internet girasol",
+            "monto": 120000,
             "fecha": "2024-12-14",
-            "completado": false,
-            "id": "14d829c2-40f2-43f3-87a7-c0f94d840538"
+            "completado": true,
+            "id": "ebd0a35d-be81-4b08-982a-766057ac5dd6"
         },
         {
             "descripcion": "Plan Celular",
             "monto": 50000,
             "fecha": "2024-12-14",
-            "completado": false,
+            "completado": true,
             "id": "686a2156-d25f-41eb-9a16-0cdeb6c75e1e"
+        },
+        {
+            "descripcion": "Youtube Premium",
+            "monto": 50000,
+            "fecha": "2024-12-14",
+            "completado": true,
+            "id": "14d829c2-40f2-43f3-87a7-c0f94d840538"
         }
     ],
     "Enero 2025": [
@@ -83,78 +83,57 @@
             "descripcion": "Cuota - Capital",
             "monto": 1700000,
             "fecha": "2025-01-01",
-            "completado": false,
+            "completado": true,
             "id": "183f98a0-9609-4683-9995-93cbece54ad1"
-        },
-        {
-            "descripcion": "Cuota - Capital",
-            "monto": 1700000,
-            "fecha": "2025-01-01",
-            "completado": false,
-            "id": "ce20e869-0d95-4433-865b-831528a432c9"
         },
         {
             "descripcion": "TDC",
             "monto": 300000,
             "fecha": "2025-01-14",
-            "completado": false,
+            "completado": true,
             "id": "47bb9c70-ea40-4081-8205-cf1ad665d7d0"
-        },
-        {
-            "descripcion": "Cadena",
-            "monto": 250000,
-            "fecha": "2025-01-14",
-            "completado": false,
-            "id": "966cde14-30c4-4a03-b35a-9e402b11e038"
         },
         {
             "descripcion": "Parqeadero Carro",
             "monto": 250000,
             "fecha": "2025-01-14",
-            "completado": false,
+            "completado": true,
             "id": "1267ab21-dce4-4eef-9ed0-e2e113217ff2"
         },
         {
-            "descripcion": "Sanitas",
-            "monto": 160000,
+            "descripcion": "Cadena",
+            "monto": 250000,
             "fecha": "2025-01-14",
-            "completado": false,
-            "id": "227b7216-1d7b-4d8c-be41-4ff36ba7a58c"
+            "completado": true,
+            "id": "966cde14-30c4-4a03-b35a-9e402b11e038"
         },
         {
             "descripcion": "Sanitas",
             "monto": 160000,
             "fecha": "2025-01-14",
-            "completado": false,
-            "id": "f373ca4b-52e3-4c21-8faa-341deceb8f2d"
-        },
-        {
-            "descripcion": "Sanitas",
-            "monto": 160000,
-            "fecha": "2025-01-14",
-            "completado": false,
+            "completado": true,
             "id": "03c16e01-0646-4fc4-ab0d-bc0fa1c0d703"
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-01-14",
-            "completado": false,
-            "id": "8e00910a-cbfa-4e21-8930-b3162ee794fb"
-        },
-        {
-            "descripcion": "Internet apartamento",
-            "monto": 120000,
-            "fecha": "2025-01-14",
-            "completado": false,
-            "id": "55eb381b-e33c-4dc0-81f8-f6a672d2c2c2"
         },
         {
             "descripcion": "Internet girasol",
             "monto": 120000,
             "fecha": "2025-01-14",
-            "completado": false,
+            "completado": true,
             "id": "f3d27581-1ff5-48e4-84f9-b65ef1229012"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-01-14",
+            "completado": true,
+            "id": "55eb381b-e33c-4dc0-81f8-f6a672d2c2c2"
+        },
+        {
+            "descripcion": "Internet apartamento",
+            "monto": 120000,
+            "fecha": "2025-01-14",
+            "completado": true,
+            "id": "8e00910a-cbfa-4e21-8930-b3162ee794fb"
         }
     ],
     "Febrero 2025": [
@@ -171,6 +150,13 @@
             "fecha": "2025-02-28",
             "completado": false,
             "id": "d42c8631-b1df-4d39-b02b-5000ab407f07"
+        },
+        {
+            "descripcion": "Pagar derechos de grado",
+            "monto": 600000,
+            "fecha": "2025-02-07",
+            "completado": false,
+            "id": "b9cab2d6-6e87-4c55-ac9a-926a3907c8e7"
         },
         {
             "descripcion": "Mercado Mes",

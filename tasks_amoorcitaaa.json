@@ -1,13 +1,6 @@
 {
     "Diciembre 2024": [
         {
-            "descripcion": "Pago plan celular",
-            "monto": 44000,
-            "fecha": "2025-02-05",
-            "completado": false,
-            "id": "9d89b16d-4786-4f6b-98f4-57badf591226"
-        },
-        {
             "descripcion": "Arriendo de apartamento",
             "monto": 600000,
             "fecha": "2024-12-05",
@@ -48,6 +41,13 @@
             "fecha": "2024-12-05",
             "completado": true,
             "id": "b34e39a8-db7e-44a7-a0fe-d0bbcdf0bec8"
+        },
+        {
+            "descripcion": "Pago plan celular",
+            "monto": 44000,
+            "fecha": "2025-02-05",
+            "completado": true,
+            "id": "9d89b16d-4786-4f6b-98f4-57badf591226"
         },
         {
             "descripcion": "Pago Luz",

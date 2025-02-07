@@ -26,6 +26,7 @@ def get_google_sheet_data():
     df2 = pd.DataFrame(rows2)
 
     df = df1.merge(df2, on='Mensaje completo', how='left')
+    df = df.sort_values(['Fecha','Monto','Banco'], ascending=False)
 
     return df
 

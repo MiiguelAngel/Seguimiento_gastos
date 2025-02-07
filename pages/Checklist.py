@@ -91,7 +91,7 @@ def load_tasks_mes(usuario):
     tasks_data = load_tasks(usuario)
 
     # Obtener el mes actual    
-    previous_month_date = datetime.now().replace(day=1) - timedelta(days=1)
+    previous_month_date = datetime.now()
     current_date = get_month_name(previous_month_date)
     eng_month = current_date.strftime("%B")
     eng_year = current_date.strftime("%Y")
