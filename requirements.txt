@@ -3,3 +3,4 @@ streamlit-option-menu
 pyarrow
 gspread 
 oauth2client
+plotly
