@@ -1,26 +1,37 @@
+import streamlit as st
 import pandas as pd
+import plotly.express as px
 
-# Ejemplo de datos con registros de ingresos y fechas
+# Ejemplo de datos
 data = {
-    'fecha': ['2025-01-31', '2025-02-28', '2025-03-31', '2025-04-30', '2025-05-31'],
-    'tipo': ['ingreso', 'ingreso', 'ingreso', 'ingreso', 'ingreso'],
-    'monto': [1000, 1200, 1100, 1300, 1150]
+    'Categoria_AI': ['Alimentos', 'Transporte', 'Entretenimiento', 'Salud', 'Vivienda', 'Transporte', 'Alimentos'],
+    'Monto': [500, 300, 150, 200, 450, 350, 400],
+    'Fecha': ['2025-01-01', '2025-01-02', '2025-01-03', '2025-01-04', '2025-01-05', '2025-01-06', '2025-01-07']
 }
 df = pd.DataFrame(data)
-df['fecha'] = pd.to_datetime(df['fecha'])
+df['Fecha'] = pd.to_datetime(df['Fecha'])
 
-# Ordenar por fecha
-df = df.sort_values(by='fecha')
+# Crear la gráfica de torta con Plotly
+fig = px.pie(df, names='Categoria_AI', values='Monto', title='Distribución de Montos por Categoría')
 
-# Crear listas para las fechas de inicio y fin de los periodos de facturación
-fechas_inicio = df['fecha'].tolist()
-fechas_fin = [date - pd.DateOffset(days=1) for date in fechas_inicio[1:]] + [None]  # La última fecha fin es None
+# Mostrar la gráfica en Streamlit
+selection  = st.plotly_chart(fig, use_container_width=True)
 
-# Crear un nuevo DataFrame con los periodos de facturación
-periodos = pd.DataFrame({
-    'inicio': fechas_inicio,
-    'fin': fechas_fin
-})
+print('Seleccionado')
+# Capturar la selección con clickData
+if selection is not None:
+    selected_category = st.session_state.get("selected_category", "Ninguna selección aún")
+    st.write(f"Categoría seleccionada: {selected_category}")
 
-# Mostrar los periodos de facturación
-print(periodos)
+# Filtrar el DataFrame según la selección del usuario
+if selected_category:
+    selected_category = selected_category['points'][0]['label']
+    df_filtered = df[df['Categoria_AI'] == selected_category]
+    st.write(f"Filtrado por categoría: {selected_category}")
+    st.write(df_filtered)
+else:
+    st.write("Seleccione una categoría en la gráfica para filtrar los datos.")
+
+# Código de Streamlit para mostrar la selección y el DataFrame filtrado
+st.write("Seleccione una categoría en la gráfica para filtrar los datos.")
+st.plotly_chart(fig, use_container_width=True)
